@@ -3,7 +3,7 @@ Az előadáson bemutatott példák.
 Fordítás / futtatás
 ===================
 
-##1. lehetőség:
+## 1. lehetőség:
 
     $ gcc alap.c
     $ ./a.out
@@ -11,7 +11,7 @@ Fordítás / futtatás
 Ha nem adjuk meg a kimenet nevét, akkor egy `a.out` nevű futtatható állomány lesz
 a fordítás eredménye.
 
-##2. lehetőség:
+## 2. lehetőség:
 
     $ gcc alap.c -o alap
     $ ./alap
