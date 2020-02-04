@@ -40,3 +40,12 @@ kapcsolóval hívja meg, amik extra ellenőrzést biztosítanak. Az első
 két esetben a fordító elnézőbb a hibákkal szemben, míg a 3. esetben
 szigorúbban jár el. Amíg tanuljuk a C nyelvet, addig érdemes a 3. módszert
 használni, ui. így könnyebben fel tudjuk fedezni a hibákat.
+
+Például a `make alap` a következőképpen hívja meg a gcc fordítót:
+
+    $ gcc -fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow alap.c -o alap
+
+Ha a programunk írása közben hibát vétettünk és ezt jelzi a fordító,
+akkor ennek örüljünk és köszönjük meg a fordítónak. Inkább fordítás
+közben derüljenek ki a hibák, semmint futás közben, esetleg éles
+környezetben.
