@@ -32,3 +32,11 @@ futtatható állomány.
 Fontos! A make parancs igényel egy `Makefile` nevű konfigurációs állományt.
 Jelen esetben ez csatolva lett. A make most azért működik a fentebb leírtak
 szerint, mert a `Makefile`-ban ezt a viselkedést állítottuk be.
+
+## Na jó, de akkor melyiket használjam?
+
+A 3. módszernek az az előnye, hogy a gcc fordítót számos olyan
+kapcsolóval hívja meg, amik extra ellenőrzést biztosítanak. Az első
+két esetben a fordító elnézőbb a hibákkal szemben, míg a 3. esetben
+szigorúbban jár el. Amíg tanuljuk a C nyelvet, addig érdemes a 3. módszert
+használni, ui. így könnyebben fel tudjuk fedezni a hibákat.
