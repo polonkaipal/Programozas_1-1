@@ -23,6 +23,20 @@ A `User` mappa helye a saját gépünkön:
 Az `extensions.txt` néhány hasznos plugin
 nevét tartalmazza, ezeket érdemes feltenni.
 
+Ajánlott betűtípus
+------------------
+
+A Hack betűtípus kellemes választás lehet programozáshoz.
+Ez alapból nincs fent, nekünk kell feltelepíteni.
+
+A projekt weboldala: https://github.com/source-foundry/Hack .
+
+Telepítés Ubuntu alatt:
+
+    $ sudo apt install fonts-hack-ttf
+
+Telepítés Windows alatt: lásd https://github.com/source-foundry/Hack#windows .
+
 Linkek
 ------
 
