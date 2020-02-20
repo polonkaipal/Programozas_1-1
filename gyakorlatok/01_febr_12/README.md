@@ -10,4 +10,6 @@ Házi feladatok
 
 * Ismerkedés a Linux operációs rendszerrel.
 
-* Az előadáson feladott Scratch programot 2 hét múlva kell bemutatni.
+* Az előadáson feladott Scratch programot 2 hét múlva kell beküldeni.
+  Részletek [itt](https://arato.inf.unideb.hu/szathmary.laszlo/pmwiki/index.php?n=Prog1.20200203a)
+  (az oldal alján).
