@@ -6,6 +6,7 @@
     "terminal.integrated.fontFamily": "Hack",
     "code-runner.clearPreviousOutput": true,
     "code-runner.showExecutionMessage": false,
+    // "code-runner.runInTerminal": true,
     "workbench.iconTheme": "vscode-icons",
     "trailing-spaces.trimOnSave": true,
     "files.insertFinalNewline": true,
