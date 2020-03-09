@@ -16,3 +16,7 @@ Tartalom
 * `c_cheat_sheet.pdf`
 
   2 oldalas "puska" a C programozási nyelvhez.
+
+* `c_style_guide.pdf`
+
+  Tippek a szép forráskódért.
