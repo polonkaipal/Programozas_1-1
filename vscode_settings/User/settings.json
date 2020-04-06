@@ -21,5 +21,6 @@
             "cursorDown"
         ]
     },
-    "editor.multiCursorModifier": "ctrlCmd"
+    "editor.multiCursorModifier": "ctrlCmd",
+    "explorer.confirmDelete": true
 }
